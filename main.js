@@ -1,5 +1,7 @@
-const button = document.querySelector(".felizNavidad__button");
-const greeting = document.querySelector(".felizNavidad")
+const button = document.querySelector(".btn");
+const greeting = document.querySelector(".greeting")
+const image = document.querySelector(".santa")
+
 button.addEventListener('click', playMusic);
 
 function playMusic() {
@@ -9,4 +11,5 @@ function playMusic() {
     audio.play();
     greeting.classList.remove("hidden");
     button.classList.add("hidden");
+    image.classList.remove("hidden");
 }
