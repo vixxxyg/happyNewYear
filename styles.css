@@ -3,6 +3,16 @@
 } */
 
 body{
-    background-image: no-repeat url(./img/freepik__upload__70414.jpeg);
-    /* background-repeat: no-repeat; */
+    background-image: url(./img/santa.png);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
 }
